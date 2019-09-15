@@ -4,9 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>RPG Pizza Collector</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+
+    <!-- title navbar -->
+    <nav>
+        <div class="nav-wrapper #ff8f00 amber darken-3">
+            <a href="#" class="brand-logo center">PIZZA COLLECTOR</a>
+        </div>
+    </nav>
+
+    <!-- game container -->
+    <div class="container">
+        
+        <!-- first row w/ pizza background image -->
+        <div class="row">
+
+            <!-- first column with pizza background image { 12 } -->
+            <div class="col s12">
+                <!-- put pizza backrgound image here -->
+                <img id="pizzaBanner" src="assets/images/pizzaBanner.jpg">
+
+            </div>
+
+        <!-- end first row div -->
+        </div>
+
+        <!-- second row with instructions and game pizzas to click on -->
+        <div class="row">
+
+            <!-- first column with instructions { 4 } -->
+            <div class="col s4">
+                <!-- put game instructions here -->
+                <h2>Instructions!</h2>
+                <h6>You will be given a random number at the START of every game.</h6>
+                <h6>There are FOUR pizzas here. By clicking on a pizza, you will add a specific amount of points to your TOTAL score.</h6>
+                <h6>TO WIN: Match your TOTAL score to the random number provided at the start of the game.</h6>
+                <h6>YOU LOSE IF: Your total score goes ABOVE the random number.</h6>
+                <h6>The value of each pizza is not revealed to you until you click on the pizza.</h6>
+                <h6>Every time the game starts, the value of each pizza will cHaNgE!!!</h6>
+            </div>
+
+            <!-- second column with game pizzas to click on { 8 } -->
+            <div class="col s8">
+                <!-- put clickable game pizzas here -->
+            </div>
+
+        <!-- end second row div -->
+        </div>
+
+        <!-- third row with count, total score, and counter for wins and losses -->
+        <div class="row">
+
+            <!-- first column with counter { 4 } -->
+            <div class="col s4">
+                <!-- put game counter here -->
+            </div>
+
+            <!-- second column with total score { 2 } -->
+            <div class="col s2">
+                <!-- put total score here -->
+            </div>
+
+            <!-- third column with wins & losses { 6 } -->
+            <div class="col 6">
+                <!-- put wins and losses here -->
+            </div>
+
+        <!-- end third row div -->
+        </div>
+
+    <!-- end container div -->
+    </div>
+
+
+
+
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
