@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RPG Pizza Collector</title>
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -49,33 +50,42 @@
                 <h6>Every time the game starts, the value of each pizza will cHaNgE!!!</h6>
             </div>
 
-            <!-- second column with game pizzas to click on { 8 } -->
-            <div class="col s8">
+            <!-- second column for clickable pizzas { 4 } -->
+            <div class="col 4 center-align">
                 <!-- put clickable game pizzas here -->
+                <!-- cheese -->
+                <img class="clickPizzas" src="assets/images/cheesePizza2.png">
+                <!-- pepperoni -->
+                <p></p>
+                <img class="clickPizzas" src="assets/images/pepperoniPizza2.png">
+                <!-- hawaiian -->
+                <p></p>
+                <img class="clickPizzas" src="assets/images/hawaiianPizza2.png">
+                <!-- meat -->
+                <p></p>
+                <img class="clickPizzas" src="assets/images/meatPizza2.png">
+                <p></p>
+            </div>
+
+            <!-- third column with rows for counters -->
+            <div class="col s4 center-align">
+                <!-- first row with random number to get to -->
+                <div class="row">
+                    <h5>Get to this number!: <span id="randNum"></span></h5>
+                </div>
+                <!-- second row with users total score -->
+                <div class="row">
+                    <h5>Your score so far: <span id="userScore">0</span></h5>
+                </div>
+                <!-- third row with wins/losses -->
+                <div class="row">
+                    <h5>Wins: <span id="wins">0</span></h5>
+                    <h5>Losses: <span id="losses">0</span></h5>
+                </div>
+
             </div>
 
         <!-- end second row div -->
-        </div>
-
-        <!-- third row with count, total score, and counter for wins and losses -->
-        <div class="row">
-
-            <!-- first column with counter { 4 } -->
-            <div class="col s4">
-                <!-- put game counter here -->
-            </div>
-
-            <!-- second column with total score { 2 } -->
-            <div class="col s2">
-                <!-- put total score here -->
-            </div>
-
-            <!-- third column with wins & losses { 6 } -->
-            <div class="col 6">
-                <!-- put wins and losses here -->
-            </div>
-
-        <!-- end third row div -->
         </div>
 
     <!-- end container div -->
@@ -86,6 +96,7 @@
 
     </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
 </body>
 </html>

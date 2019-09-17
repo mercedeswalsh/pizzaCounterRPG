@@ -1,3 +1,20 @@
 #pizzaBanner {
     width: 100%;
 }
+
+.clickPizzas {
+    width: 47%;
+}
+
+.randNumRow {
+    border-style: dotted;
+}
+
+.totalScoreRow {
+    border-style: dotted;
+}
+
+.winsLossesRow {
+    border-style: dotted;
+}
+
